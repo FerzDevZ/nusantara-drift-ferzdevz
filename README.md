@@ -1,63 +1,116 @@
 # 🏎️ FerzRP: Ultimate Drift (open.mp)
 
-**FerzRP** adalah gamemode *Ultimate Drift* modern yang dibangun di atas framework **open.mp**. Gamemode ini dirancang dengan arsitektur modular tinggi, performa optimal, dan fitur visual premium untuk memberikan pengalaman drifting terbaik di SA-MP/open.mp.
+[![Platform](https://img.shields.io/badge/Platform-open.mp-orange.svg?style=flat-square)](https://open.mp/)
+[![Language](https://img.shields.io/badge/Language-Pawn-blue.svg?style=flat-square)](https://github.com/pawn-lang/compiler)
+[![Database](https://img.shields.io/badge/Database-SQLite-lightgrey.svg?style=flat-square)](https://www.sqlite.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+
+**FerzRP** adalah gamemode *Ultimate Drift* modern yang dibangun eksklusif untuk framework **open.mp**. Berbeda dengan gamemode drift tradisional, FerzRP menggunakan pendekatan **High-Performance Modular Architecture**, memastikan server tetap stabil bahkan dengan ratusan pemain dan ribuan objek kustom.
 
 ---
 
-## ✨ Fitur Unggulan
+## 🌟 Fitur Utama (Highlight)
 
-- **🚀 Modular Architecture**: Seluruh logic dipisah ke dalam modul `.inc` (Tuning, Garage, Clan, Mission, dll) untuk kemudahan pengembangan.
-- **💨 Advanced Drift System**: Perhitungan poin drift berbasis kecepatan, sudut (angle), dan bonus **Tandem** real-time.
-- **🛠️ Sticker & Visual Editor**: Sistem stiker kendaraan kustom dan lampu neon (Underglow) yang tersimpan permanen di database.
-- **🏁 Daily Missions**: Tantangan harian untuk mendapatkan poin drift ekstra.
-- **🛡️ Security Hardening**: Proteksi SQL Injection, anti-brute force, dan sistem autentikasi aman.
-- **⛽ Realistic Fuel System**: Manajemen bensin dengan indikator HUD dan sistem kontrol mesin otomatis.
-- **👥 Dynamic Clan System**: Buat kelompok, undang anggota, dan kumpulkan skor klan tertinggi.
+### 🚀 Arsitektur Modular Tinggi
+Seluruh sistem tidak menumpuk di satu file `.pwn`, melainkan dipisah ke puluhan modul `.inc` di folder `modules/`. Ini memudahkan kolaborasi tim dan debugging:
+- **Zero Circular Dependency**: Struktur include yang rapi.
+- **Easy Maintenance**: Ubah satu fitur tanpa merusak fitur lainnya.
+
+### 💨 Next-Gen Drift & Tandem System
+Algoritma perhitungan poin yang adil dan dinamis:
+- **Speed & Angle Scaling**: Semakin cepat dan tajam drift Anda, semakin besar poinnya.
+- **Real-time Tandem Bonus**: Bonus poin x2 jika Anda melakukan drift berdampingan dengan pemain lain (Zoning system).
+- **Drift Leaderboard**: Menampilkan skor tertinggi secara real-time di HUD.
+
+### 🛠️ Visual Customization (Premium)
+- **Sticker Editor**: Tempel stiker teks kustom di posisi mana pun pada body kendaraan. Data otomatis tersimpan di SQLite.
+- **Dynamic Neon (Underglow)**: Lampu neon bawah mobil dengan offset yang menyesuaikan model kendaraan secara cerdas (SUV, Sedan, Supercar).
+- **Persistence Visual**: Seluruh modifikasi visual (stiker & neon) tidak akan hilang saat server restart.
+
+### 🛡️ Hardened Security
+- **Anti-SQL Injection**: Seluruh query database difilter dengan `SQL_Escape`.
+- **Brute Force Protection**: Pembatasan percobaan login (Kick otomatis setelah 5x salah).
+- **Timer Race Condition Check**: Pengecekan koneksi pemain di setiap callback timer untuk mencegah bug dialog.
+
+### ⛽ Realistic Ecosystem
+- **Fuel Mechanics**: Bensin yang dikonsumsi secara real-time. Mesin akan mati jika bensin habis.
+- **Daily Missions**: Sistem misi yang di-reset setiap hari secara otomatis (Score, Distance, Tandem).
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
-
-- **Platform**: [open.mp](https://open.mp/)
-- **Language**: Pawn 3.10.x
-- **Database**: Native SQLite (Tanpa plugin eksternal)
-- **HUD**: Modern FiveM-Style TextDraws
-- **Security**: SHA256 Hashing for Passwords
-
----
-
-## 📁 Struktur Projek
+## 🛠️ Struktur Folder & Modul
 
 ```text
-gamemodes/
-├── drift.pwn            # Main entry & Core callbacks
-└── modules/             # Modul Fitur (Modularized)
-    ├── auth.inc         # Login/Register System
-    ├── database.inc     # SQLite Engine & Persistence
-    ├── tuning.inc       # Visual Modification Shop
-    ├── visual.inc       # Object Attachment & Stickers
-    ├── fuel.inc         # Advanced Vehicle Mechanics
-    └── [others]...      # Ghost Duel, Clans, Missions, dll.
+ProjectRP/
+├── drift.pwn              # File Utama (Entry Point)
+├── README.md              # Dokumentasi ini
+└── gamemodes/modules/     # Jantung dari Gamemode
+    ├── auth.inc           # Sistem Login & Registrasi
+    ├── database.inc       # Engine SQLite & Persistence logic
+    ├── drift_system.inc   # Core logic perhitungan drift & tandem
+    ├── visual.inc         # Logic stiker, neon, dan object attachment
+    ├── tuning.inc         # Bengkel modifikasi visual (Dialog-based)
+    ├── garage.inc         # Manajemen kendaraan pribadi & mod saving
+    ├── clans.inc          # Sistem klan dinamis (Label klan & ranking)
+    ├── fuel.inc           # Sistem bensin & konsumsi bahan bakar
+    ├── tutorial.inc       # Alur tutorial untuk pemain baru
+    └── hud.inc            # Desain & update TextDraw HUD (FiveM Style)
 ```
 
 ---
 
-## 🚀 Cara Menjalankan
+## ⌨️ Daftar Perintah (Commands)
 
-1. Download dan instal server package **open.mp**.
-2. Masukkan file `gamemodes/drift.pwn` dan seluruh isi folder `modules/` ke direktori server Anda.
-3. Pastikan folder `qawno/` sudah dikonfigurasi dengan include open.mp terbaru.
-4. Compile `drift.pwn`.
-5. Jalankan server dan selamat drifting!
+### 🏎️ Kendaraan & Drift
+- `/v [elegy/sultan/jester/flash/uranus]` - Spawn mobil drift instan.
+- `/drift` - Menu teleportasi ke lokasi drift terbaik.
+- `/duel [ghost_name]` - Tantang rekaman (ghost) pemain lain.
+- `/rec [nama]` - Rekam aksi drift Anda sendiri.
+
+### 🛠️ Kustomisasi & Toko
+- `/shop` - Modifikasi neon, roda, dan nitro secara visual.
+- `/sticker [teks]` - Tambahkan stiker teks unik ke kendaraan.
+- `/fill` - Isi ulang bensin kendaraan Anda.
+- `/mycars` - Daftar kendaraan pribadi yang Anda miliki.
+
+### 👥 Sosial & Klan
+- `/createclan [nama]` - Dirikan klan Anda sendiri (Butuh 10k Poin).
+- `/invite [id]` - Ajak pemain lain bergabung ke klan Anda.
+- `/claninfo` - Lihat statistik dan total poin klan.
+- `/missions` - Periksa tantangan harian Anda.
 
 ---
 
-## 📝 Konten & Lisensi
+## 💻 Cara Instalasi & Setup
 
-Projek dikembangkan oleh **FerzDevZ** (Nusantara Drift).
-- **YouTube**: [Ferzsampp](https://youtube.com/c/ferzsampp)
-- **Instagram**: [ferzchills](https://instagram.com/ferzchills)
-- **Discord**: [ferzdevz](https://discord.gg/ferzdevz)
+1. **Unduh Framework**: Pastikan Anda memiliki server open.mp terbaru.
+2. **Include**: Tempatkan folder `qawno/` yang berisi include open.mp di direktori root.
+3. **Compile**:
+   ```bash
+   # Gunakan compiler PawnCC 3.10+
+   pawncc gamemodes/drift.pwn -iincludes -oamx
+   ```
+4. **Configuration**: Edit `server.json` Anda:
+   ```json
+   {
+     "gamemode": "drift",
+     "mapname": "Nusantara Drift",
+     "language": "Indonesian",
+     "rcon_password": "ganti_dengan_rcon_anda"
+   }
+   ```
+5. **Database**: Server akan otomatis membuat file `ferz_drift.db` saat pertama kali dijalankan.
 
 ---
-*Dibuat dengan ❤️ untuk komunitas SA-MP Indonesia.*
+
+## 🤝 Hubungi Penulis & Komunitas
+
+Dapatkan dukungan teknis atau sekadar mengobrol dengan komunitas kami:
+
+- **👾 Discord Community**: [Join FerzRP Community](https://discord.gg/f5QBgH8w9B)
+- **📺 YouTube Channel**: [Ferzsampp](https://youtube.com/c/ferzsampp)
+- **📸 Instagram Updates**: [@ferzchills](https://instagram.com/ferzchills)
+- **💬 Lead Developer**: `ferzdevz`
+
+---
+*Dikembangkan dengan ❤️ untuk kemajuan komunitas SA-MP & open.mp Indonesia oleh **FerzDevZ**.*
