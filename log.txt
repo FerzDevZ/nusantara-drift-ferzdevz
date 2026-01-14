@@ -1,0 +1,2054 @@
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T01:36:45+0700] [Info] 
+----------------------------------
+[2026-01-14T01:36:45+0700] [Info]  gungame is a gun game mode released as
+[2026-01-14T01:36:45+0700] [Info]  an example mode for open.mp
+[2026-01-14T01:36:45+0700] [Info]  
+[2026-01-14T01:36:45+0700] [Info]  Author: NotUnlikeTheWaves (github)
+[2026-01-14T01:36:45+0700] [Info] ----------------------------------
+
+[2026-01-14T01:36:46+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T01:36:47+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T01:36:47+0700] [Warning] 	 Status: 406
+[2026-01-14T01:36:47+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:41049-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T01:36:47+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T01:47:09+0700] [Info] 
+----------------------------------
+[2026-01-14T01:47:09+0700] [Info]  gungame is a gun game mode released as
+[2026-01-14T01:47:09+0700] [Info]  an example mode for open.mp
+[2026-01-14T01:47:09+0700] [Info]  
+[2026-01-14T01:47:09+0700] [Info]  Author: NotUnlikeTheWaves (github)
+[2026-01-14T01:47:09+0700] [Info] ----------------------------------
+
+[2026-01-14T01:47:09+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T01:47:11+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T01:47:11+0700] [Warning] 	 Status: 406
+[2026-01-14T01:47:11+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:40025-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T01:47:11+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T01:48:03+0700] [Info] [connection] incoming connection: 192.168.1.17:51110 id: 0
+[2026-01-14T01:48:03+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+[2026-01-14T01:50:39+0700] [Info] [part] Ferz has left the server (0:0)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T01:51:02+0700] [Info] Drift Gamemode Initialized.
+[2026-01-14T01:51:02+0700] [Info] 
+----------------------------------
+[2026-01-14T01:51:02+0700] [Info]  FerzRP Drift Server Starting...
+[2026-01-14T01:51:02+0700] [Info]  Author: FerzDevZ
+[2026-01-14T01:51:02+0700] [Info] ----------------------------------
+
+[2026-01-14T01:51:02+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T01:51:03+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T01:51:03+0700] [Warning] 	 Status: 406
+[2026-01-14T01:51:03+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:49302-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T01:51:03+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T01:52:05+0700] [Info] Drift Gamemode Initialized.
+[2026-01-14T01:52:05+0700] [Info] 
+----------------------------------
+[2026-01-14T01:52:05+0700] [Info]  FerzRP Drift Server Starting...
+[2026-01-14T01:52:05+0700] [Info]  Author: FerzDevZ
+[2026-01-14T01:52:05+0700] [Info] ----------------------------------
+
+[2026-01-14T01:52:05+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T01:52:06+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T01:52:06+0700] [Warning] 	 Status: 406
+[2026-01-14T01:52:06+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:33786-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T01:52:06+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T01:52:42+0700] [Info] [connection] incoming connection: 192.168.1.17:46784 id: 0
+[2026-01-14T01:52:42+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+[2026-01-14T01:53:52+0700] [Info] [part] Ferz has left the server (0:0)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T01:56:27+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T01:56:27+0700] [Info] 
+----------------------------------
+[2026-01-14T01:56:27+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T01:56:27+0700] [Info]  Author: FerzDevZ
+[2026-01-14T01:56:27+0700] [Info] ----------------------------------
+
+[2026-01-14T01:56:27+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T01:56:28+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T01:56:28+0700] [Warning] 	 Status: 406
+[2026-01-14T01:56:28+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:39794-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T01:56:28+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T01:56:40+0700] [Info] [connection] incoming connection: 192.168.1.17:50553 id: 0
+[2026-01-14T01:56:40+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:02:25+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:02:25+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:02:25+0700] [Info] 
+----------------------------------
+[2026-01-14T02:02:25+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:02:25+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:02:25+0700] [Info] ----------------------------------
+
+[2026-01-14T02:02:26+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:02:27+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:02:27+0700] [Warning] 	 Status: 406
+[2026-01-14T02:02:27+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:47136-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:02:27+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:04:59+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:04:59+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:04:59+0700] [Info] 
+----------------------------------
+[2026-01-14T02:04:59+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:04:59+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:04:59+0700] [Info] ----------------------------------
+
+[2026-01-14T02:04:59+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:05:00+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:05:00+0700] [Warning] 	 Status: 406
+[2026-01-14T02:05:00+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:37036-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:05:00+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:06:12+0700] [Info] [connection] incoming connection: 192.168.1.17:59016 id: 0
+[2026-01-14T02:06:12+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+[2026-01-14T02:06:32+0700] [Info] [chat] [Ferz]: t
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:06:49+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:06:49+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:06:49+0700] [Info] 
+----------------------------------
+[2026-01-14T02:06:49+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:06:49+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:06:49+0700] [Info] ----------------------------------
+
+[2026-01-14T02:06:49+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:06:49+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:06:49+0700] [Warning] 	 Status: 406
+[2026-01-14T02:06:49+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:52514-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:06:49+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:06:59+0700] [Info] [part] Ferz has left the server (0:0)
+[2026-01-14T02:07:09+0700] [Info] [connection] incoming connection: 192.168.1.17:37039 id: 0
+[2026-01-14T02:07:09+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:14:39+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:14:39+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:14:39+0700] [Info] 
+----------------------------------
+[2026-01-14T02:14:39+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:14:39+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:14:39+0700] [Info] ----------------------------------
+
+[2026-01-14T02:14:39+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:14:40+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:14:40+0700] [Warning] 	 Status: 406
+[2026-01-14T02:14:40+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:34249-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:14:40+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:15:32+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:15:32+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:15:32+0700] [Info] 
+----------------------------------
+[2026-01-14T02:15:32+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:15:32+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:15:32+0700] [Info] ----------------------------------
+
+[2026-01-14T02:15:32+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:15:32+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:15:32+0700] [Warning] 	 Status: 406
+[2026-01-14T02:15:32+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:35563-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:15:32+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:16:02+0700] [Info] [connection] incoming connection: 192.168.1.17:39570 id: 0
+[2026-01-14T02:16:02+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+[2026-01-14T02:18:08+0700] [Info] [part] Ferz has left the server (0:0)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:19:24+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:19:24+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:19:24+0700] [Info] 
+----------------------------------
+[2026-01-14T02:19:24+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:19:24+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:19:24+0700] [Info] ----------------------------------
+
+[2026-01-14T02:19:24+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:19:24+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:19:24+0700] [Warning] 	 Status: 406
+[2026-01-14T02:19:24+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:56167-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:19:24+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:19:57+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:19:57+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:19:57+0700] [Info] 
+----------------------------------
+[2026-01-14T02:19:57+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:19:57+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:19:57+0700] [Info] ----------------------------------
+
+[2026-01-14T02:19:58+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:19:58+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:19:58+0700] [Warning] 	 Status: 406
+[2026-01-14T02:19:58+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:53162-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:19:58+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:20:18+0700] [Info] [connection] incoming connection: 192.168.1.17:37723 id: 0
+[2026-01-14T02:20:18+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:25:40+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:25:40+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:25:40+0700] [Info] 
+----------------------------------
+[2026-01-14T02:25:40+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:25:40+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:25:40+0700] [Info] ----------------------------------
+
+[2026-01-14T02:25:40+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:25:41+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:25:41+0700] [Warning] 	 Status: 406
+[2026-01-14T02:25:41+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:46341-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:25:41+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:33:48+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:33:48+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:33:48+0700] [Info] 
+----------------------------------
+[2026-01-14T02:33:48+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:33:48+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:33:48+0700] [Info] ----------------------------------
+
+[2026-01-14T02:33:48+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:33:49+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:33:49+0700] [Warning] 	 Status: 406
+[2026-01-14T02:33:49+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:34384-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:33:49+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:35:20+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:35:20+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:35:20+0700] [Info] 
+----------------------------------
+[2026-01-14T02:35:20+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:35:20+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:35:20+0700] [Info] ----------------------------------
+
+[2026-01-14T02:35:20+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:35:21+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:35:21+0700] [Warning] 	 Status: 406
+[2026-01-14T02:35:21+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:58208-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:35:21+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:35:38+0700] [Info] [connection] incoming connection: 192.168.1.17:33233 id: 0
+[2026-01-14T02:35:38+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+[2026-01-14T02:35:51+0700] [Info] [chat] [Ferz]: lveh elegy
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:38:13+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:38:13+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:38:13+0700] [Info] 
+----------------------------------
+[2026-01-14T02:38:13+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:38:13+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:38:13+0700] [Info] ----------------------------------
+
+[2026-01-14T02:38:13+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:38:14+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:38:14+0700] [Warning] 	 Status: 406
+[2026-01-14T02:38:14+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:45728-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:38:14+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:42:37+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:42:37+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:42:37+0700] [Info] 
+----------------------------------
+[2026-01-14T02:42:37+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:42:37+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:42:37+0700] [Info] ----------------------------------
+
+[2026-01-14T02:42:37+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:42:38+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:42:38+0700] [Warning] 	 Status: 406
+[2026-01-14T02:42:38+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:45579-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:42:38+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:43:31+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:43:31+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:43:31+0700] [Info] 
+----------------------------------
+[2026-01-14T02:43:31+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:43:31+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:43:31+0700] [Info] ----------------------------------
+
+[2026-01-14T02:43:31+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:43:32+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:43:32+0700] [Warning] 	 Status: 406
+[2026-01-14T02:43:32+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:50273-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:43:32+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:44:00+0700] [Info] [connection] incoming connection: 192.168.1.17:60394 id: 0
+[2026-01-14T02:44:00+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:45:29+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:45:29+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:45:29+0700] [Info] 
+----------------------------------
+[2026-01-14T02:45:29+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:45:29+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:45:29+0700] [Info] ----------------------------------
+
+[2026-01-14T02:45:29+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:45:29+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:45:29+0700] [Warning] 	 Status: 406
+[2026-01-14T02:45:29+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:56626-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:45:29+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:45:35+0700] [Info] [connection] incoming connection: 192.168.1.17:60831 id: 0
+[2026-01-14T02:45:35+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T02:47:24+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T02:47:24+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T02:47:24+0700] [Info] 
+----------------------------------
+[2026-01-14T02:47:24+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T02:47:24+0700] [Info]  Author: FerzDevZ
+[2026-01-14T02:47:24+0700] [Info] ----------------------------------
+
+[2026-01-14T02:47:24+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T02:47:25+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T02:47:25+0700] [Warning] 	 Status: 406
+[2026-01-14T02:47:25+0700] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:56050-\u003e103.88.170.81:7777: read: connection refused"}
+[2026-01-14T02:47:25+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T02:47:48+0700] [Info] [connection] incoming connection: 192.168.1.17:60280 id: 0
+[2026-01-14T02:47:48+0700] [Info] [join] Ferz has joined the server (0:192.168.1.17)
+[2026-01-14T03:20:30+0700] [Info] Log file reloaded.
+[2026-01-14T03:20:30+0700] [Info] Log file reloaded.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T07:11:49+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T07:12:07+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T07:12:07+0700] [Warning] 	 Status: 406
+[2026-01-14T07:12:07+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T07:12:07+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T07:13:55+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T07:14:08+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T07:14:08+0700] [Warning] 	 Status: 406
+[2026-01-14T07:14:08+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T07:14:08+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T07:17:50+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T07:18:05+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T07:18:05+0700] [Warning] 	 Status: 406
+[2026-01-14T07:18:05+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T07:18:05+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T07:25:46+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T07:26:06+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T07:26:06+0700] [Warning] 	 Status: 406
+[2026-01-14T07:26:06+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T07:26:06+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T07:34:31+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T07:34:48+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T07:34:48+0700] [Warning] 	 Status: 406
+[2026-01-14T07:34:48+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T07:34:48+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T07:45:44+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T07:45:58+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T07:45:58+0700] [Warning] 	 Status: 406
+[2026-01-14T07:45:58+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T07:45:58+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T07:54:30+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T07:54:45+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T07:54:45+0700] [Warning] 	 Status: 406
+[2026-01-14T07:54:45+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T07:54:45+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T08:00:39+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T08:01:14+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T08:01:14+0700] [Warning] 	 Status: 406
+[2026-01-14T08:01:14+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T08:01:14+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T08:32:27+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T08:32:43+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T08:32:43+0700] [Warning] 	 Status: 406
+[2026-01-14T08:32:43+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T08:32:43+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T08:36:35+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T08:36:46+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T08:36:46+0700] [Warning] 	 Status: 406
+[2026-01-14T08:36:46+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T08:36:46+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T08:37:53+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T08:38:04+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T08:38:04+0700] [Warning] 	 Status: 406
+[2026-01-14T08:38:04+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T08:38:04+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T08:38:40+0700] [Info] [connection] incoming connection: 10.29.155.38:53405 id: 0
+[2026-01-14T08:38:40+0700] [Info] [join] Ferz has joined the server (0:10.29.155.38)
+[2026-01-14T08:39:27+0700] [Info] [part] Ferz has left the server (0:0)
+[2026-01-14T08:39:42+0700] [Info] [connection] incoming connection: 10.29.155.38:46182 id: 0
+[2026-01-14T08:39:42+0700] [Info] [join] Ferzkntl has joined the server (0:10.29.155.38)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T08:47:47+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T08:47:47+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T08:47:47+0700] [Info] 
+----------------------------------
+[2026-01-14T08:47:47+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T08:47:47+0700] [Info]  Author: FerzDevZ
+[2026-01-14T08:47:47+0700] [Info] ----------------------------------
+
+[2026-01-14T08:47:47+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T08:47:58+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T08:47:58+0700] [Warning] 	 Status: 406
+[2026-01-14T08:47:58+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T08:47:58+0700] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T08:48:12+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T08:48:12+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T08:48:12+0700] [Info] 
+----------------------------------
+[2026-01-14T08:48:12+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T08:48:12+0700] [Info]  Author: FerzDevZ
+[2026-01-14T08:48:12+0700] [Info] ----------------------------------
+
+[2026-01-14T08:48:12+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T08:48:23+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T08:48:23+0700] [Warning] 	 Status: 406
+[2026-01-14T08:48:23+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T08:48:23+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T08:49:05+0700] [Info] [connection] incoming connection: 10.29.155.38:59741 id: 0
+[2026-01-14T08:49:05+0700] [Info] [join] Ferzkntl has joined the server (0:10.29.155.38)
+[2026-01-14T08:49:12+0700] [Warning] Using unsafe hashing function SHA256_PassHash
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T08:51:01+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T08:51:01+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T08:51:01+0700] [Info] 
+----------------------------------
+[2026-01-14T08:51:01+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T08:51:01+0700] [Info]  Author: FerzDevZ
+[2026-01-14T08:51:01+0700] [Info] ----------------------------------
+
+[2026-01-14T08:51:01+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T08:51:12+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T08:51:12+0700] [Warning] 	 Status: 406
+[2026-01-14T08:51:12+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T08:51:12+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T08:52:02+0700] [Info] [connection] incoming connection: 10.29.155.38:53711 id: 0
+[2026-01-14T08:52:02+0700] [Info] [join] Ferzkntl has joined the server (0:10.29.155.38)
+[2026-01-14T08:52:07+0700] [Warning] Using unsafe hashing function SHA256_PassHash
+[2026-01-14T08:59:52+0700] [Info] [part] Ferzkntl has left the server (0:0)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loaded 22 component(s) from /home/ferdinand/ProjectRP/components
+[2026-01-14T09:01:24+0700] [Info] Database: Connected to ferz_drift.db
+[2026-01-14T09:01:24+0700] [Info] Maps: Custom Drift Track Loaded.
+[2026-01-14T09:01:24+0700] [Info] 
+----------------------------------
+[2026-01-14T09:01:24+0700] [Info]  FerzRP Ultimate Drift Starting...
+[2026-01-14T09:01:24+0700] [Info]  Author: FerzDevZ
+[2026-01-14T09:01:24+0700] [Info] ----------------------------------
+
+[2026-01-14T09:01:24+0700] [Info] Legacy Network started on port 7777
+[2026-01-14T09:01:34+0700] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-01-14T09:01:34+0700] [Warning] 	 Status: 406
+[2026-01-14T09:01:34+0700] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[2026-01-14T09:01:34+0700] [Warning] This won't affect the server's behaviour.
+[2026-01-14T09:01:48+0700] [Info] [connection] incoming connection: 10.29.155.38:60679 id: 0
+[2026-01-14T09:01:48+0700] [Info] [join] Ferzkntl has joined the server (0:10.29.155.38)
+[2026-01-14T09:01:54+0700] [Warning] Using unsafe hashing function SHA256_PassHash
