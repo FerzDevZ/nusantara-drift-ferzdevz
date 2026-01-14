@@ -19,6 +19,8 @@
 
 #include <open.mp>
 
+new gPlayerPersonalVehicle[MAX_PLAYERS];
+
 stock ProcessVehicleCore(playerid)
 {
     if(IsPlayerInAnyVehicle(playerid) && GetPlayerState(playerid) == PLAYER_STATE_DRIVER)

@@ -26,12 +26,32 @@ enum E_PLAYER_DATA
     admin_level,
     clan_id,
     tutorial_passed,
+    mission_data[128],
     password_hash[65] // SHA256 hex string is 64 chars + null
 };
 new gPlayerData[MAX_PLAYERS][E_PLAYER_DATA];
 
 new DB:gDB;
 new bool:gPlayerLoggedIn[MAX_PLAYERS];
+
+// Helper to sanitize logic
+stock SQL_Escape(const string[])
+{
+    new out[128];
+    new len = strlen(string);
+    new j = 0;
+    for(new i = 0; i < len && j < 127; i++)
+    {
+        if(string[i] == '\'' || string[i] == '\"' || string[i] == '\\' || string[i] == '`')
+        {
+            // Skip or replace dangerous characters
+            continue; 
+        }
+        out[j++] = string[i];
+    }
+    out[j] = '\0';
+    return out;
+}
 
 stock DB_Init()
 {
@@ -45,6 +65,7 @@ stock DB_Init()
         // If it fails (exists), no harm.
         db_free_result(db_query(gDB, "ALTER TABLE players ADD COLUMN password TEXT"));
         db_free_result(db_query(gDB, "ALTER TABLE players ADD COLUMN tutorial_passed INTEGER DEFAULT 0"));
+        db_free_result(db_query(gDB, "ALTER TABLE players ADD COLUMN mission_data TEXT"));
         
         // Clans Table
         db_free_result(db_query(gDB, "CREATE TABLE IF NOT EXISTS clans (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT UNIQUE, leader_name TEXT, total_points INTEGER)"));
@@ -68,11 +89,12 @@ stock DB_SavePlayer(playerid)
 {
     if(!gPlayerLoggedIn[playerid]) return; // Don't save if not logged in
     
-    new name[MAX_PLAYER_NAME], query[1024]; // Increase size for hash
+    new name[MAX_PLAYER_NAME], query[1024], clean_name[MAX_PLAYER_NAME]; 
     GetPlayerName(playerid, name, sizeof(name));
+    format(clean_name, sizeof(clean_name), "%s", SQL_Escape(name));
     
-    format(query, sizeof(query), "INSERT OR REPLACE INTO players (name, best_drift, total_points, admin_level, clan_id, tutorial_passed, password) VALUES ('%s', %d, %d, %d, %d, %d, '%s')", 
-        name, gPlayerData[playerid][best_drift], gPlayerData[playerid][total_points], gPlayerData[playerid][admin_level], gPlayerData[playerid][clan_id], gPlayerData[playerid][tutorial_passed], gPlayerData[playerid][password_hash]);
+    format(query, sizeof(query), "INSERT OR REPLACE INTO players (name, best_drift, total_points, admin_level, clan_id, tutorial_passed, password, mission_data) VALUES ('%s', %d, %d, %d, %d, %d, '%s', '%s')", 
+        clean_name, gPlayerData[playerid][best_drift], gPlayerData[playerid][total_points], gPlayerData[playerid][admin_level], gPlayerData[playerid][clan_id], gPlayerData[playerid][tutorial_passed], gPlayerData[playerid][password_hash], gPlayerData[playerid][mission_data]);
     
     db_free_result(db_query(gDB, query));
 }
@@ -80,10 +102,11 @@ stock DB_SavePlayer(playerid)
 stock DB_LoadPlayer(playerid)
 {
     // Now called ONLY after Login
-    new name[MAX_PLAYER_NAME], query[256], DBResult:res;
+    new name[MAX_PLAYER_NAME], query[256], DBResult:res, clean_name[MAX_PLAYER_NAME];
     GetPlayerName(playerid, name, sizeof(name));
+    format(clean_name, sizeof(clean_name), "%s", SQL_Escape(name));
     
-    format(query, sizeof(query), "SELECT best_drift, total_points, admin_level, clan_id, tutorial_passed, password FROM players WHERE name = '%s'", name);
+    format(query, sizeof(query), "SELECT best_drift, total_points, admin_level, clan_id, tutorial_passed, password, mission_data FROM players WHERE name = '%s'", clean_name);
     res = db_query(gDB, query);
     
     if (db_num_rows(res))
@@ -94,6 +117,7 @@ stock DB_LoadPlayer(playerid)
         gPlayerData[playerid][clan_id] = db_get_field_assoc_int(res, "clan_id");
         gPlayerData[playerid][tutorial_passed] = db_get_field_assoc_int(res, "tutorial_passed");
         db_get_field_assoc(res, "password", gPlayerData[playerid][password_hash], 65);
+        db_get_field_assoc(res, "mission_data", gPlayerData[playerid][mission_data], 128);
     }
     db_free_result(res);
 }
@@ -101,9 +125,10 @@ stock DB_LoadPlayer(playerid)
 // Check if player is registered
 stock DB_IsPlayerRegistered(playerid)
 {
-    new name[MAX_PLAYER_NAME], query[128], DBResult:res;
+    new name[MAX_PLAYER_NAME], query[128], DBResult:res, clean_name[MAX_PLAYER_NAME];
     GetPlayerName(playerid, name, sizeof(name));
-    format(query, sizeof(query), "SELECT password FROM players WHERE name = '%s'", name);
+    format(clean_name, sizeof(clean_name), "%s", SQL_Escape(name));
+    format(query, sizeof(query), "SELECT password FROM players WHERE name = '%s'", clean_name);
     res = db_query(gDB, query);
     
     new bool:registered = false;

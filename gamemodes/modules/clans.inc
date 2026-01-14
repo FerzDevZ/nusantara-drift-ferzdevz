@@ -19,8 +19,11 @@
 
 #include <open.mp>
 
+#define DIALOG_CLAN_INVITE 2000
+
 // Vars
 new gPlayerClanName[MAX_PLAYERS][32];
+new Text3D:gClanTag[MAX_PLAYERS] = {Text3D:INVALID_3DTEXT_ID, ...};
 
 // Commands
 stock ProcessClanCommands(playerid, cmdtext[])
@@ -79,13 +82,17 @@ stock ProcessClanCommands(playerid, cmdtext[])
         if(!IsPlayerConnected(targetid)) return SendClientMessage(playerid, -1, "Player not found.");
         if(gPlayerData[targetid][clan_id] != 0) return SendClientMessage(playerid, -1, "Player already in a clan.");
         
-        gPlayerData[targetid][clan_id] = gPlayerData[playerid][clan_id];
-        format(gPlayerClanName[targetid], 32, "%s", gPlayerClanName[playerid]);
-        UpdateClanTag(targetid);
+        if(gPlayerData[targetid][clan_id] != 0) return SendClientMessage(playerid, -1, "Player already in a clan.");
         
-        DB_SavePlayer(targetid);
-        SendClientMessage(targetid, 0x00FF00FF, "You have been added to the clan!");
-        SendClientMessage(playerid, 0x00FF00FF, "Player invited.");
+        new msg[128], name[MAX_PLAYER_NAME];
+        GetPlayerName(playerid, name, sizeof(name));
+        format(msg, sizeof(msg), "{FFFF00}%s {FFFFFF}invited you to join clan: {00FF00}%s", name, gPlayerClanName[playerid]);
+        
+        SetPVarInt(targetid, "ClanInviteID", gPlayerData[playerid][clan_id]);
+        SetPVarInt(targetid, "ClanInviteFrom", playerid);
+        
+        ShowPlayerDialog(targetid, DIALOG_CLAN_INVITE, DIALOG_STYLE_MSGBOX, "Clan Invitation", msg, "Accept", "Decline");
+        SendClientMessage(playerid, 0xFFFF00FF, "Invitation sent.");
         return 1;
     }
     
@@ -115,14 +122,16 @@ stock ProcessClanCommands(playerid, cmdtext[])
 
 stock UpdateClanTag(playerid)
 {
+    if(gClanTag[playerid] != Text3D:INVALID_3DTEXT_ID)
+    {
+        Delete3DTextLabel(gClanTag[playerid]);
+        gClanTag[playerid] = Text3D:INVALID_3DTEXT_ID;
+    }
+
     if(gPlayerData[playerid][clan_id] != 0)
     {
-        // Very basic implementation: simply reset name to standard format if not already
-        // Note: SetPlayerName has restrictions, this is just visual concept
-        // Better: use 3D Text Label above head
-        
-        new Text3D:label = Create3DTextLabel(gPlayerClanName[playerid], 0x00FF00FF, 0.0, 0.0, 0.0, 20.0, 0, false);
-        Attach3DTextLabelToPlayer(label, playerid, 0.0, 0.0, 0.4);
+        gClanTag[playerid] = Create3DTextLabel(gPlayerClanName[playerid], 0x00FF00FF, 0.0, 0.0, 0.0, 20.0, 0, false);
+        Attach3DTextLabelToPlayer(gClanTag[playerid], playerid, 0.0, 0.0, 0.4);
     }
 }
 
@@ -147,4 +156,43 @@ stock LoadPlayerClanName(playerid)
         gPlayerData[playerid][clan_id] = 0; // ID not found cleanup
     }
     db_free_result(res);
+}
+
+stock ProcessClanDialog(playerid, dialogid, response)
+{
+    if(dialogid == DIALOG_CLAN_INVITE)
+    {
+        if(!response)
+        {
+            SendClientMessage(GetPVarInt(playerid, "ClanInviteFrom"), -1, "Player declined your invitation.");
+            DeletePVar(playerid, "ClanInviteID");
+            DeletePVar(playerid, "ClanInviteFrom");
+            return 1;
+        }
+        
+        new clanid = GetPVarInt(playerid, "ClanInviteID");
+        if(clanid == 0) return 1;
+        
+        gPlayerData[playerid][clan_id] = clanid;
+        
+        // Fetch clan name to set local cache
+        new query[128], DBResult:res;
+        format(query, sizeof(query), "SELECT name FROM clans WHERE id = %d", clanid);
+        res = db_query(gDB, query);
+        if(db_num_rows(res))
+        {
+            db_get_field_assoc(res, "name", gPlayerClanName[playerid], 32);
+            UpdateClanTag(playerid);
+            DB_SavePlayer(playerid);
+            
+            SendClientMessage(playerid, 0x00FF00FF, "You joined the clan!");
+            SendClientMessage(GetPVarInt(playerid, "ClanInviteFrom"), 0x00FF00FF, "Player joined your clan.");
+        }
+        db_free_result(res);
+        
+        DeletePVar(playerid, "ClanInviteID");
+        DeletePVar(playerid, "ClanInviteFrom");
+        return 1;
+    }
+    return 0;
 }

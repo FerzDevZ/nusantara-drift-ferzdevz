@@ -21,6 +21,7 @@
 
 new bool:gInTutorial[MAX_PLAYERS];
 new gTutorialStep[MAX_PLAYERS];
+new gTutorialVeh[MAX_PLAYERS];
 
 stock StartTutorial(playerid)
 {
@@ -42,13 +43,14 @@ stock StartTutorial(playerid)
 forward TutorialStep1(playerid);
 public TutorialStep1(playerid)
 {
-    if(!IsPlayerConnected(playerid)) return;
+    if(!IsPlayerConnected(playerid) || !gInTutorial[playerid]) return;
     
     // Step 1: Explain Drift
     ShowNotification(playerid, "Drift School", "Goal: Earn 1000 Drift Points to get your license.", 5000);
     
     // Spawn in car (Slightly higher to avoid floor glitch)
-    new veh = CreateVehicle(562, -1426.6833, -256.0206, 15.15, 0.0, 1, 1, -1); // Elegy
+    new veh = CreateVehicle(562, -1426.6833, -256.0206, 15.5, 0.0, 1, 1, -1); // Elegy
+    gTutorialVeh[playerid] = veh;
     SetVehicleVirtualWorld(veh, playerid + 1000);
     LinkVehicleToInterior(veh, 0);
     
@@ -62,7 +64,12 @@ public TutorialStep1(playerid)
 forward TutorialPutInVeh(playerid, vehicleid);
 public TutorialPutInVeh(playerid, vehicleid)
 {
-    if(!IsPlayerConnected(playerid)) return;
+    if(!IsPlayerConnected(playerid) || !gInTutorial[playerid]) 
+    {
+        if(IsValidVehicle(vehicleid)) DestroyVehicle(vehicleid);
+        return;
+    }
+    
     PutPlayerInVehicle(playerid, vehicleid, 0);
     SetTimerEx("TutorialStep2", 3000, false, "i", playerid);
 }
@@ -70,7 +77,7 @@ public TutorialPutInVeh(playerid, vehicleid)
 forward TutorialStep2(playerid);
 public TutorialStep2(playerid)
 {
-    if(!IsPlayerConnected(playerid)) return;
+    if(!IsPlayerConnected(playerid) || !gInTutorial[playerid]) return;
     
     SetCameraBehindPlayer(playerid);
     TogglePlayerControllable(playerid, 1);
@@ -102,7 +109,17 @@ public EndTutorial(playerid)
     TogglePlayerControllable(playerid, true);
     SetCameraBehindPlayer(playerid);
     SetPlayerVirtualWorld(playerid, 0);
-    SpawnDriftVehicle(playerid, 562); // Respawn in main world
+    
+    // Destroy Tutorial Veh
+    if(gTutorialVeh[playerid] && IsValidVehicle(gTutorialVeh[playerid]))
+    {
+        DestroyVehicle(gTutorialVeh[playerid]);
+        gTutorialVeh[playerid] = 0;
+    }
+    
+    // Fixed Safe Spawn for completion
+    SetPlayerPos(playerid, 411.3323, 2520.1252, 16.6341);
+    SpawnDriftVehicle(playerid, 562); 
     
     gPlayerData[playerid][tutorial_passed] = 1;
     DB_SavePlayer(playerid); // Save "Passed" state

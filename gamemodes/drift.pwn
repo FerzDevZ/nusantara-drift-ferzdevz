@@ -20,10 +20,14 @@
 
 // Modules
 #include "modules/database.inc"
-#include "modules/auth.inc"
+#include "modules/core.inc"
 #include "modules/hud.inc"
-#include "modules/drift_system.inc"
+#include "modules/visual.inc"
+#include "modules/fuel.inc"
+#include "modules/garage.inc"
 #include "modules/vehicle_system.inc"
+#include "modules/drift_system.inc"
+#include "modules/auth.inc"
 #include "modules/admin.inc"
 #include "modules/shop.inc"
 #include "modules/maps.inc"
@@ -31,8 +35,6 @@
 #include "modules/clans.inc"
 #include "modules/missions.inc"
 #include "modules/duel.inc"
-#include "modules/visual.inc"
-#include "modules/garage.inc"
 #include "modules/tuning.inc"
 #include "modules/audio.inc"
 #include "modules/ui.inc"
@@ -41,13 +43,11 @@
 #include "modules/weather.inc"
 #include "modules/teleports.inc"
 #include "modules/rank.inc"
-#include "modules/core.inc"
 #include "modules/icons.inc"
 #include "modules/help.inc"
 #include "modules/radio.inc"
 #include "modules/handling.inc"
 #include "modules/smoke.inc"
-#include "modules/fuel.inc"
 
 main()
 {
@@ -67,7 +67,21 @@ public OnGameModeInit()
     AddPlayerClass(0, 411.3323, 2520.1252, 16.6341, 180.0, WEAPON_FIST, 0, WEAPON_FIST, 0, WEAPON_FIST, 0); 
     
     SetTimer("GlobalUpdate", 100, true);
+    SetTimer("PeriodicSave", 300000, true); // Every 5 minutes
     return 1;
+}
+
+forward PeriodicSave();
+public PeriodicSave()
+{
+    print("Database: Periodic Save Initiated...");
+    for(new i = 0; i < MAX_PLAYERS; i++)
+    {
+        if(IsPlayerConnected(i) && gPlayerLoggedIn[i])
+        {
+            DB_SavePlayer(i);
+        }
+    }
 }
 
 public OnPlayerConnect(playerid)
@@ -329,14 +343,14 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
         ProcessHandlingDialog(playerid, response, listitem);
         return 1;
     }
-    if(dialogid == 301)
-    {
-        ProcessGarageAction(playerid, response, listitem);
-        return 1;
-    }
-    if(dialogid >= 800 && dialogid <= 803)
+    if(dialogid >= 800 && dialogid <= 804) // Enhanced to 804 for Neon
     {
         ProcessTuningDialog(playerid, dialogid, response, listitem);
+        return 1;
+    }
+    if(dialogid == 2000) // DIALOG_CLAN_INVITE
+    {
+        ProcessClanDialog(playerid, dialogid, response);
         return 1;
     }
     return 1;

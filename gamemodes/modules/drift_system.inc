@@ -78,13 +78,13 @@ stock ProcessDrift(playerid)
         
         for(new i = 0; i < MAX_PLAYERS; i++)
         {
-            if(i != playerid && IsPlayerConnected(i) && gDriftScore[i] > 0)
+            if(i != playerid && IsPlayerConnected(i) && gDriftScore[i] > 10) // Only check against active drifters
             {
-                if(GetPlayerDistanceFromPoint(i, x, y, z) < 15.0) // 15 meters Tandem Zoning
+                if(GetPlayerDistanceFromPoint(i, x, y, z) < 15.0) 
                 {
                     added_points *= 2;
                     gIsTandem[playerid] = true;
-                    break; // Found one partner is enough for bonus
+                    break;
                 }
             }
         }

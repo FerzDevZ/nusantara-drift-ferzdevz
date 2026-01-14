@@ -22,6 +22,8 @@
 #define DIALOG_LOGIN    1000
 #define DIALOG_REGISTER 1001
 
+new gLoginAttempts[MAX_PLAYERS];
+
 stock Auth_OnPlayerConnect(playerid)
 {
     gPlayerLoggedIn[playerid] = false;
@@ -35,6 +37,8 @@ stock Auth_OnPlayerConnect(playerid)
 forward CheckAccount(playerid);
 public CheckAccount(playerid)
 {
+    if(!IsPlayerConnected(playerid)) return;
+    
     if(DB_IsPlayerRegistered(playerid))
     {
         ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "Welcome back! Please enter your password:", "Login", "Quit");
@@ -63,6 +67,7 @@ stock ProcessAuthDialog(playerid, dialogid, response, listitem, inputtext[])
         if(!strcmp(hash, gPlayerData[playerid][password_hash]))
         {
             // Success
+            gLoginAttempts[playerid] = 0;
             gPlayerLoggedIn[playerid] = true;
             HUD_Create(playerid);
             SendClientMessage(playerid, 0x00FF00FF, "Login Successful! Welcome back.");
@@ -84,7 +89,17 @@ stock ProcessAuthDialog(playerid, dialogid, response, listitem, inputtext[])
         }
         else
         {
-             ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "Wrong Password! Try again:", "Login", "Quit");
+             gLoginAttempts[playerid]++;
+             if(gLoginAttempts[playerid] >= 5)
+             {
+                 SendClientMessage(playerid, 0xFF0000FF, "Too many failed login attempts. Kicked.");
+                 Kick(playerid);
+                 return 1;
+             }
+             
+             new msg[128];
+             format(msg, sizeof(msg), "Wrong Password! (%d/5) Try again:", gLoginAttempts[playerid]);
+             ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", msg, "Login", "Quit");
         }
     }
     else if(dialogid == DIALOG_REGISTER)

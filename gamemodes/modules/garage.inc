@@ -20,7 +20,6 @@
 #include <open.mp>
 
 #define MAX_OWNED_CARS 50
-new gPlayerPersonalVehicle[MAX_PLAYERS];
 
 stock ShowGarageMenu(playerid)
 {
@@ -112,7 +111,13 @@ stock StartTestDrive(playerid, modelid)
 forward EndTestDrive(playerid, vehicleid);
 public EndTestDrive(playerid, vehicleid)
 {
-    if(IsPlayerConnected(playerid) && IsPlayerInVehicle(playerid, vehicleid))
+    if(!IsPlayerConnected(playerid)) 
+    {
+        if(IsValidVehicle(vehicleid)) DestroyVehicle(vehicleid);
+        return;
+    }
+    
+    if(IsPlayerInVehicle(playerid, vehicleid))
     {
         RemovePlayerFromVehicle(playerid);
         ShowNotification(playerid, "Test Drive", "Time's up!", 3000);
@@ -225,15 +230,7 @@ stock LoadVehicleMods(vehicleid, db_id)
         // Apply Neon if exists
         if(neon > 0)
         {
-             // We need to call a function from tuning.inc or visual.inc to apply neon. 
-             // Usually it's CreateObject + Attach. 
-             // I'll assume we have a stock for this. 
-             // Let's create 'ApplyNeon(vehicleid, model)' in visual.inc or similar.
-             // For now, I'll use the ID directly.
-             gVehicleNeon[vehicleid][0] = CreateObject(neon, 0,0,0,0,0,0);
-             gVehicleNeon[vehicleid][1] = CreateObject(neon, 0,0,0,0,0,0);
-             AttachObjectToVehicle(gVehicleNeon[vehicleid][0], vehicleid, 0.8, 0.0, -0.70, 0.0, 0.0, 0.0);
-             AttachObjectToVehicle(gVehicleNeon[vehicleid][1], vehicleid, -0.8, 0.0, -0.70, 0.0, 0.0, 0.0);
+             ApplyNeon(vehicleid, neon);
         }
     }
     db_free_result(res);

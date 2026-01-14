@@ -121,13 +121,6 @@ stock ProcessTuningDialog(playerid, dialogid, response, listitem)
     }
     else if(dialogid == DIALOG_TUNING_NEON)
     {
-        // 18647(Red), 18648(Blue), 18649(Green), 18652(White), 18651(Pink), 18650(Yellow)
-        // Ideally we use AttachObjectToVehicle.
-        // But `garage.inc` save logic currently ONLY saves "Vehicle Components" (AddVehicleComponent).
-        // It does NOT save attached objects yet.
-        // So Neon will disappear on Relog unless I update `garage.inc` to save Attached Objects too.
-        // For now: Just Apply it. Persistence is for Phase 14.
-        
         new objid = 0;
         if(listitem == 0) objid = 18647; // Red
         else if(listitem == 1) objid = 18648; // Blue
@@ -147,19 +140,12 @@ stock ProcessTuningDialog(playerid, dialogid, response, listitem)
         {
              // Save for persistence
              SetPVarInt(playerid, "ActiveNeonModel", objid);
-             // Cleanup previous visuals before creating new ones
-             CleanupVehicleVisuals(veh);
              
              // Apply immediately
-             gVehicleNeon[veh][0] = CreateObject(objid, 0,0,0,0,0,0);
-             gVehicleNeon[veh][1] = CreateObject(objid, 0,0,0,0,0,0);
-             // Cleanup if exists? (Needs tracking)
+             ApplyNeon(veh, objid);
              
-             AttachObjectToVehicle(gVehicleNeon[veh][0], veh, 0.8, 0.0, -0.70, 0.0, 0.0, 0.0);
-             AttachObjectToVehicle(gVehicleNeon[veh][1], veh, -0.8, 0.0, -0.70, 0.0, 0.0, 0.0);
              SendClientMessage(playerid, -1, "Neon Installed! Select 'Save Current Mods' to keep it permanently.");
         }
     }
-    
     return 1;
 }

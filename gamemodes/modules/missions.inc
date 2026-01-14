@@ -43,6 +43,59 @@ stock InitMissions(playerid)
         GenerateMissions(playerid);
         SendClientMessage(playerid, 0xFFFF00FF, "New Daily Missions Available! Type /missions");
     }
+    else
+    {
+        Mission_Load(playerid);
+    }
+}
+
+stock Mission_Save(playerid)
+{
+    format(gPlayerData[playerid][mission_data], 128, "%d,%d,%d|%d,%d,%d|%d,%d,%d",
+        gMissions[playerid][0][mProgress], gMissions[playerid][0][mTarget], gMissions[playerid][0][mCompleted],
+        gMissions[playerid][1][mProgress], gMissions[playerid][1][mTarget], gMissions[playerid][1][mCompleted],
+        gMissions[playerid][2][mProgress], gMissions[playerid][2][mTarget], gMissions[playerid][2][mCompleted]);
+    DB_SavePlayer(playerid);
+}
+
+stock Mission_Load(playerid)
+{
+    new data[128];
+    format(data, 128, "%s", gPlayerData[playerid][mission_data]);
+    if(strlen(data) < 5) return;
+    
+    // Manual Parsing "prog,target,comp|prog,target,comp|..."
+    new start = 0, segment_end, part_end, part_idx;
+    for(new i = 0; i < MAX_MISSIONS; i++)
+    {
+        segment_end = strfind(data, "|", true, start);
+        if(segment_end == -1) segment_end = strlen(data);
+        
+        new segment[64];
+        strmid(segment, data, start, segment_end);
+        
+        // Parse parts within segment
+        part_idx = 0;
+        new p_start = 0;
+        while((part_end = strfind(segment, ",", true, p_start)) != -1 || p_start < strlen(segment))
+        {
+            if(part_end == -1) part_end = strlen(segment);
+            new val_str[16];
+            strmid(val_str, segment, p_start, part_end);
+            new val = strval(val_str);
+            
+            if(part_idx == 0) gMissions[playerid][i][mProgress] = val;
+            else if(part_idx == 1) gMissions[playerid][i][mTarget] = val;
+            else if(part_idx == 2) gMissions[playerid][i][mCompleted] = (val == 1);
+            
+            part_idx++;
+            p_start = part_end + 1;
+            if(part_end == strlen(segment)) break;
+        }
+        
+        start = segment_end + 1;
+        if(segment_end == strlen(data)) break;
+    }
 }
 
 stock GenerateMissions(playerid)
@@ -64,6 +117,8 @@ stock GenerateMissions(playerid)
     gMissions[playerid][2][mTarget] = 5 + random(5);
     gMissions[playerid][2][mProgress] = 0;
     gMissions[playerid][2][mCompleted] = false;
+
+    Mission_Save(playerid);
 }
 
 stock UpdateMission(playerid, type, amount)
@@ -78,7 +133,12 @@ stock UpdateMission(playerid, type, amount)
                 gMissions[playerid][i][mCompleted] = true;
                 gPlayerData[playerid][total_points] += 5000;
                 SendClientMessage(playerid, 0x00FF00FF, "Mission Complete! Reward: 5000 Points");
-                DB_SavePlayer(playerid);
+                Mission_Save(playerid);
+            }
+            else
+            {
+                // Save periodically or on progress? Let's save on progress for reliability as missions are rare updates
+                Mission_Save(playerid);
             }
         }
     }

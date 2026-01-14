@@ -224,6 +224,40 @@ stock LoadStickers(vehicleid, db_id)
     db_free_result(res);
     return 1;
 }
+stock GetNeonOffsets(modelid, &Float:x, &Float:y, &Float:z)
+{
+    // Default
+    x = 0.8; y = 0.0; z = -0.70;
+    
+    // Adjust based on car size
+    switch(modelid)
+    {
+        case 411: { x = 0.9; z = -0.75; } // Infernus
+        case 541: { x = 0.9; z = -0.80; } // Bullet
+        case 562: { x = 0.8; z = -0.70; } // Elegy
+        case 560: { x = 0.8; z = -0.70; } // Sultan
+        case 559: { x = 0.8; z = -0.70; } // Jester
+        case 400, 489, 505: { x = 1.0; z = -0.90; } // SUVs
+    }
+    return 1;
+}
+
+stock ApplyNeon(vehicleid, objid)
+{
+    if(objid <= 0) return 0;
+    CleanupVehicleVisuals(vehicleid); // Remove old neon
+    
+    new Float:nx, Float:ny, Float:nz;
+    GetNeonOffsets(GetVehicleModel(vehicleid), nx, ny, nz);
+    
+    gVehicleNeon[vehicleid][0] = CreateObject(objid, 0,0,0,0,0,0);
+    gVehicleNeon[vehicleid][1] = CreateObject(objid, 0,0,0,0,0,0);
+    
+    AttachObjectToVehicle(gVehicleNeon[vehicleid][0], vehicleid, nx, ny, nz, 0.0, 0.0, 0.0);
+    AttachObjectToVehicle(gVehicleNeon[vehicleid][1], vehicleid, -nx, ny, nz, 0.0, 0.0, 0.0);
+    return 1;
+}
+
 stock CleanupVehicleVisuals(vehicleid)
 {
     // Clean Stickers

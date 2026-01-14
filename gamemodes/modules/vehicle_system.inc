@@ -25,7 +25,15 @@ stock SpawnDriftVehicle(playerid, modelid)
     GetPlayerPos(playerid, x, y, z);
     GetPlayerFacingAngle(playerid, a);
     
+    // Unify with personal vehicle system to prevent clutter
+    if(gPlayerPersonalVehicle[playerid] && IsValidVehicle(gPlayerPersonalVehicle[playerid]))
+    {
+        CleanupVehicleVisuals(gPlayerPersonalVehicle[playerid]);
+        DestroyVehicle(gPlayerPersonalVehicle[playerid]);
+    }
+
     new vehicleid = CreateVehicle(modelid, x, y, z, a, -1, -1, 100);
+    gPlayerPersonalVehicle[playerid] = vehicleid;
     InitVehicleFuel(vehicleid);
     PutPlayerInVehicle(playerid, vehicleid, 0);
     
